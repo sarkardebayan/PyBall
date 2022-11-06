@@ -17,8 +17,19 @@ pip3 install pygame
 Yes. thats all it needs. Now clone this repository using 
 
 ```
-git clone github.com/sarkardebayan/PyBall
+git clone https://github.com/sarkardebayan/PyBall.git
 ```
-
+change your working directory
+```
+cd PyBall
+```
+now run the `main.py` file
+```
+python main.py
+```
+or
+```
+python3 main.py
+```
 ### Controls
 Use the spacebar to jump, avoid the pipes pretty simple.
