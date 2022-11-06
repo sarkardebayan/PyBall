@@ -1,5 +1,5 @@
 # PyBall
-Ever played Flappy Bird ? This is an implementaion of that game, with lazy graphics in python.
+Ever played [Flappy Bird](https://en.wikipedia.org/wiki/Flappy_Bird) ? This is an implementaion of that game, with lazy graphics in python.
 
 ## Running the code
 You need to have python installed, and then use pip to install the requirements. For that, run the following command in your terminal
@@ -21,4 +21,4 @@ git clone github.com/sarkardebayan/PyBall
 ```
 
 ### Controls
-Use the spacebar jump, avoid the pipes pretty simple.
+Use the spacebar to jump, avoid the pipes pretty simple.
