@@ -60,10 +60,10 @@ def exit_menu(): # After you hit a pipe
         screen.blit(player_text,(WIDTH/2 - 200, HEIGHT/2 - 50))
         high = game_font.render(f'HIGHSCORE : {HIGHSCORE}',False,ACC_COLOR)
         screen.blit(high,(WIDTH/2 - 200,HEIGHT/2 - 20))
-        someshit = game_font.render('Press ENTER to quit',False,ACC_COLOR)
-        why = game_font.render('Press SPACE to retry',False,ACC_COLOR)
-        screen.blit(someshit,(WIDTH/2 - 200,HEIGHT/2 + 10))
-        screen.blit(why, (WIDTH/2 - 200, HEIGHT/2 + 50))
+        enter = game_font.render('Press ENTER to quit',False,ACC_COLOR)
+        retry = game_font.render('Press SPACE to retry',False,ACC_COLOR)
+        screen.blit(enter,(WIDTH/2 - 200,HEIGHT/2 + 10))
+        screen.blit(retry, (WIDTH/2 - 200, HEIGHT/2 + 50))
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 quit()
